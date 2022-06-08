@@ -17,7 +17,7 @@ jobs:
       #- run: pip install --upgrade pip
       - run: pip install mkdocs-material
       #- run: pip install mkdocs-jupyter
-      # - run: pip install mkdocs-kroki-plugin
+      - run: pip install mkdocs-kroki-plugin
       - run: pip install mkdocs-macros-plugin
 
       # - run: pip install mkdocs-macros-plugin
@@ -27,4 +27,5 @@ jobs:
       # souhaités pour le déploiement du site...
 
       
-      - run: mkdocs gh-deploy --force
+      #- run: mkdocs gh-deploy --force
+      - run: mkdocs gh-deploy 
