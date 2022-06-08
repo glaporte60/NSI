@@ -1,4 +1,4 @@
-site_name: "Exp2 : MkDocs+Pyodide"
+site_name: "La spécialité NSI au lycée Jean CALVIN - NOYON"
 site_url: https://glaporte60.github.io/NSI/
 #repo_url: https://gitlab.com/ens-fr/exp2
 site_author: "Guillaume LAPORTE"
@@ -8,6 +8,9 @@ docs_dir: docs
 
 nav:
   - "🏡 Accueil": index.md
+  - Cours Premiere NSI:
+      - "Chapitre 2" : Chapitre2/Chapitre2.md 
+      - "Chapitre 3" : Chapitre3/Chapitre3.md
   - ... | regex=^(?:(?!_REM.md).)*$
 
 
@@ -24,7 +27,7 @@ theme:
     palette:                        # Palettes de couleurs jour/nuit
       - media: "(prefers-color-scheme: light)"
         scheme: default
-        primary: indigo
+        primary: green
         accent: indigo
         toggle:
             icon: material/weather-sunny
@@ -47,6 +50,7 @@ theme:
 markdown_extensions:
     - meta
     - abbr
+
 
     - def_list                      # Les listes de définition.
     - attr_list                     # Un peu de CSS et des attributs HTML.

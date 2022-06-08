@@ -6,7 +6,7 @@ Ce dépôt est à cloner et adapter à votre besoin.
 
 ## Prérequis
 
-Avec le fichier `requirements.txt` suivant
+Avec le fichier `requirements.txt` suivant :
 
 ```txt title="requirements.txt"
 mkdocs-material
