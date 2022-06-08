@@ -1,6 +1,7 @@
 site_name: "Exp2 : MkDocs+Pyodide"
 site_url: https://ens-fr.gitlab.io/exp2
 repo_url: https://gitlab.com/ens-fr/exp2
+site_author: "Guillaume LAPORTE"
 edit_uri: tree/main/docs/
 
 docs_dir: docs
