@@ -1,3 +1,1 @@
-# Expérience avec MkDocs et Pyodide
-
-Présentation : https://e-nsi.gitlab.io/exp2/
+# Site Vierge Pour création d'un MKDOCS
