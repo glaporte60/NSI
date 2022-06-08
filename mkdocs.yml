@@ -10,7 +10,7 @@ nav:
   - "🏡 Accueil": index.md
   - Cours Premiere NSI:
       - "Chapitre 2" : Chapitre2/Chapitre2.md 
-      - "Chapitre 3" : Chapitre2/Chapitre3.md
+      - "Chapitre 3" : Chapitre3/Chapitre3.md
   - ... | regex=^(?:(?!_REM.md).)*$
 
 
